@@ -10,7 +10,7 @@ const Prefixes = [
 
   'gpt',
   
-  'shika',
+  'mia',
 
   'openai',
 
@@ -74,7 +74,7 @@ module.exports = {
 
     if (!question) {
 
-      return message.reply("𝙎𝙖𝙡𝙪𝙩 𝙢𝙤𝙞 𝙘'𝙚𝙨𝙩 𝙎𝙝𝙞𝙠𝙖𝙢𝙖𝙪𝙧 𝙉𝙖𝙧𝙖🧠.\n 𝙌𝙪𝙚 𝙥𝙪𝙞-𝙟𝙚 𝙛𝙖𝙞𝙧𝙚 𝙥𝙤𝙪𝙧 𝙩𝙤𝙞 ");
+      return message.reply("𝙎𝙖𝙡𝙪𝙩 𝙢𝙤𝙞 𝙘'𝙚𝙨𝙩 𝙈𝙞𝙖.\n 𝙌𝙪𝙚 𝙥𝙪𝙞-𝙟𝙚 𝙛𝙖𝙞𝙧𝙚 𝙥𝙤𝙪𝙧 𝙩𝙤𝙞 ");
 
     }
 
@@ -84,7 +84,7 @@ module.exports = {
 
 
 
-    api.setMessageReaction("🧠", event.messageID, () => {}, true);
+    api.setMessageReaction("♻️", event.messageID, () => {}, true);
 
 
 
@@ -136,7 +136,7 @@ module.exports = {
 
 
 
-      api.setMessageReaction("📃", event.messageID, () => {}, true);
+      api.setMessageReaction("✅", event.messageID, () => {}, true);
 
 
 
@@ -182,7 +182,7 @@ module.exports = {
 
 
 
-    api.setMessageReaction("🧠", event.messageID, () => {}, true);
+    api.setMessageReaction("♻️", event.messageID, () => {}, true);
 
 
 
@@ -210,7 +210,7 @@ module.exports = {
 
 
 
-        api.setMessageReaction("📃", event.messageID, () => {}, true);
+        api.setMessageReaction("✅", event.messageID, () => {}, true);
 
 
 
